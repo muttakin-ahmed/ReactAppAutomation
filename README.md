@@ -1,4 +1,4 @@
-# ReactAppAutomation
+# React App Automation with Python 3 and Selenium WebDriver
 
 This repository contains an automation script for the following balancing game, hosted in http://ec2-54-208-152-154.compute-1.amazonaws.com/
 Python 3 is used to write the Selenium WebDriver automation code, so to run this code, the user must have both Python 3.x.x and selenium library installed in the intended system. For browser, I have used Chrome. For Selenium to access chrome, chromedriver is required. Please check the following links for the installation and setup.
