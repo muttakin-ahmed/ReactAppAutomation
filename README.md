@@ -11,4 +11,5 @@ For chromedriver to work, the correct path of it should be mentioned in the code
 ### Solution observations:
 I have a couple of possible solutions for this game. I will write my observations of these solutions in this section.
 **1. Basic Solution:** In this solution, I have not used the weighing feature at all. I did that because it is simpler to just look for a fake bar on the list of bars, rather than weighing and calculating. It is a linear solution, so the runtime will increase once the list size is increased. It is a good solution in terms of runtime, but it misses the important features and not a smart solution if we are thinking of test coverage.
+
 **2. Intermediate solution:** I have used the feature of weighing the bars in this solution. After testin, I came up with the ways of weighing multiple bars each side. In the automation script, however, 1 each side and 2 each side has been implemented.
